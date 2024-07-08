@@ -1,0 +1,56 @@
+##### THIS WAS USED TO GENERATE THE EXAMPLES WITH CLAUDE 3.5 SONNET
+
+I'd like you to create some fake IT service tickets that contain (fake PII). 
+
+The types of PII are:
+NAMES : Names of user, colleagues or customers
+FILE_ID : a 6 to 8 digit number
+WORK_EMAIL: Email addresses with domain @lloydsbanking.com, @halifax.com, @clericalmedical.com
+PERSONAL_EMAIL : Email addresses with personal domains e.g. @gmail.com, @yahoo.com, @hotmail.com
+PHONE_NUMBER : UK phone number
+CREDIT_CARD : CREDIT CARD NUMBER
+RESIDENTIAL_ADDRESS : UK residential address
+CREDENTIALS : Application passwords and usernames
+
+Please generates 25 samples. Include FILE_ID and WORK_EMAIL in every example and then include 2 to 3 of the other PII elements in each ticket.
+
+Please wrap all examples up into a single json formatted list as in the below example:
+
+[
+    {
+        "text" : [
+            "Hello I'm having trouble logging into my Service Now account.",
+            "My name is Angelica Hubbard and my file id is 9294558.",
+            "My work email is angie.hubbard@lloydsbanking.com.",
+            "My personal email is anghub@gmail.com.",
+            "Please forward any personal emails to my home address: 12 Ditton Road, Surrey, TH9 7HK."
+        ],
+        "entities" : [
+            {
+                "type" : "NAME", 
+                "text" : "Angelica Hubbard"
+            },
+
+            {
+                "type" : "FILE_ID", 
+                "text" : "9294558"
+            },
+
+            {
+                "type" : "WORK_EMAIL", 
+                "text" : "angie.hubbard@lloydsbanking.com"
+            },
+
+            {
+                "type" : "PERSONAL_EMAIL", 
+                "text" : "anghub@gmail.com"
+            },
+
+            {
+                "type" : "RESIDENTIAL_ADDRESS", 
+                "text" : "12 Ditton Road, Surrey, TH9 7HK"
+            }
+        ]
+    }
+
+]

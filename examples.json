@@ -1,0 +1,524 @@
+[
+    {
+        "text" : [
+            "Hello I'm having trouble logging into my Service Now account.",
+            "My name is Angelica Hubbard and my file id is 9294558.",
+            "My work email is angie.hubbard@lloydsbanking.com.",
+            "My personal email is anghub@gmail.com.",
+            "Please forward any personal emails to my home address: 12 Ditton Road, Surrey, TH9 7HK."
+        ],
+        "entities" : [
+            {
+                "type" : "NAME", 
+                "text" : "Angelica Hubbard"
+            },
+
+            {
+                "type" : "FILE_ID", 
+                "text" : "9294558"
+            },
+
+            {
+                "type" : "WORK_EMAIL", 
+                "text" : "angie.hubbard@lloydsbanking.com"
+            },
+
+            {
+                "type" : "PERSONAL_EMAIL", 
+                "text" : "anghub@gmail.com"
+            },
+
+            {
+                "type" : "RESIDENTIAL_ADDRESS", 
+                "text" : "12 Ditton Road, Surrey, TH9 7HK"
+            }
+        ]
+    },
+
+    {
+        "text": [
+          "I need help resetting my password for the company portal.",
+          "My name is Oliver Thompson and my file ID is 7823451.",
+          "My work email is oliver.thompson@lloydsbanking.com.",
+          "You can reach me on my mobile at 07700 900123.",
+          "My username for the system is olithompson22."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Oliver Thompson"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "7823451"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "oliver.thompson@lloydsbanking.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "07700 900123"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "olithompson22"
+          }
+        ]
+      },
+      {
+        "text": [
+          "I'm unable to access my work email account.",
+          "My file ID is 6542198 and my work email is sarah.jenkins@halifax.com.",
+          "My home address is 45 Oakwood Avenue, Manchester, M15 6FG.",
+          "Please send any updates to my personal email: sarahj85@hotmail.com."
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "6542198"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "sarah.jenkins@halifax.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "45 Oakwood Avenue, Manchester, M15 6FG"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "sarahj85@hotmail.com"
+          }
+        ]
+      },
+      {
+        "text": [
+          "My laptop is not connecting to the company VPN.",
+          "I'm Robert Chen, file ID 89234567.",
+          "My work email is robert.chen@clericalmedical.com.",
+          "You can contact me at 020 7946 0234 if you need more information."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Robert Chen"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "89234567"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "robert.chen@clericalmedical.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "020 7946 0234"
+          }
+        ]
+      },
+      {
+        "text": [
+          "I need to update my contact details in the HR system.",
+          "My name is Emily Watson, file ID 7654321.",
+          "My current work email is emily.watson@lloydsbanking.com.",
+          "Please update my address to: 78 High Street, Edinburgh, EH1 1TH.",
+          "My new personal email is emwatson@gmail.com."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Emily Watson"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "7654321"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "emily.watson@lloydsbanking.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "78 High Street, Edinburgh, EH1 1TH"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "emwatson@gmail.com"
+          }
+        ]
+      },
+      {
+        "text": [
+          "I'm having trouble accessing the CRM system.",
+          "My file ID is 9876543 and my work email is james.wilson@halifax.com.",
+          "My username is jwilson_crm and I've tried resetting my password but it's not working.",
+          "Please call me on 07890 123456 to assist."
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "9876543"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "james.wilson@halifax.com"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "jwilson_crm"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "07890 123456"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Need help setting up my new work phone.",
+          "I'm Sophia Lee, file ID 5432167.",
+          "My work email is sophia.lee@clericalmedical.com.",
+          "My personal email for verification is sophialee123@yahoo.com.",
+          "My credit card for any necessary purchases is 4539 1488 0343 6467."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Sophia Lee"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "5432167"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "sophia.lee@clericalmedical.com"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "sophialee123@yahoo.com"
+          },
+          {
+            "type": "CREDIT_CARD",
+            "text": "4539 1488 0343 6467"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Requesting access to the financial reporting software.",
+          "My name is Daniel Brown, file ID 6789012.",
+          "Work email: daniel.brown@lloydsbanking.com.",
+          "Office phone: 0141 496 0123.",
+          "My current login credentials are: username - dbrown_finance, password - LloydsDB2023!"
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Daniel Brown"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "6789012"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "daniel.brown@lloydsbanking.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "0141 496 0123"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "dbrown_finance, LloydsDB2023!"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Need to reset my network password urgently.",
+          "File ID: 3456789, Work email: lisa.taylor@halifax.com.",
+          "Home address for security verification: 23 Elm Grove, Bristol, BS1 4ND.",
+          "Alternative contact: ltaylor1990@gmail.com"
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "3456789"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "lisa.taylor@halifax.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "23 Elm Grove, Bristol, BS1 4ND"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "ltaylor1990@gmail.com"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Experiencing issues with the remote desktop connection.",
+          "I'm Mohammed Ahmed, file ID 2345678.",
+          "Work email: mohammed.ahmed@clericalmedical.com.",
+          "Please contact me on my mobile: 07700 900234.",
+          "My company credit card number is 5105 1051 0510 5100."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Mohammed Ahmed"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "2345678"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "mohammed.ahmed@clericalmedical.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "07700 900234"
+          },
+          {
+            "type": "CREDIT_CARD",
+            "text": "5105 1051 0510 5100"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Request for software installation on my work laptop.",
+          "Name: Charlotte Evans, File ID: 8901234.",
+          "Work email: charlotte.evans@lloydsbanking.com.",
+          "My work station is located at: 56 Queen Street, London, EC4R 1BE."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Charlotte Evans"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "8901234"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "charlotte.evans@lloydsbanking.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "56 Queen Street, London, EC4R 1BE"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Need assistance with setting up multi-factor authentication.",
+          "My file ID is 4567890 and work email is thomas.green@halifax.com.",
+          "Personal email for recovery: tgreen@hotmail.com.",
+          "Current system username: tgreen_mfa"
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "4567890"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "thomas.green@halifax.com"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "tgreen@hotmail.com"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "tgreen_mfa"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Reporting a potential phishing email received.",
+          "I'm Olivia Clark, file ID 5678901.",
+          "Work email: olivia.clark@clericalmedical.com.",
+          "Please confirm receipt on my work phone: 020 7123 4567.",
+          "My corporate credit card ending in 7890 may have been compromised."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Olivia Clark"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "5678901"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "olivia.clark@clericalmedical.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "020 7123 4567"
+          },
+          {
+            "type": "CREDIT_CARD",
+            "text": "7890"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Request for additional storage on my work account.",
+          "Name: William Turner, File ID: 7890123.",
+          "Work email: william.turner@lloydsbanking.com.",
+          "Home address: 89 Park Lane, Birmingham, B1 2AA.",
+          "Current account username: wturner_storage"
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "William Turner"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "7890123"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "william.turner@lloydsbanking.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "89 Park Lane, Birmingham, B1 2AA"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "wturner_storage"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Issues with accessing shared network drives.",
+          "My file ID is 9012345 and work email is emma.white@halifax.com.",
+          "You can reach me on 07911 123456 for any questions.",
+          "My network login is ewhite_network."
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "9012345"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "emma.white@halifax.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "07911 123456"
+          },
+          {
+            "type": "CREDENTIALS",
+            "text": "ewhite_network"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Need help configuring my email client on my new device.",
+          "I'm David Johnson, file ID 1234567.",
+          "Work email: david.johnson@clericalmedical.com.",
+          "Personal email for recovery purposes: djohnson78@gmail.com.",
+          "Home address: 12 Maple Street, Glasgow, G1 3AB."
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "David Johnson"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "1234567"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "david.johnson@clericalmedical.com"
+          },
+          {
+            "type": "PERSONAL_EMAIL",
+            "text": "djohnson78@gmail.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "12 Maple Street, Glasgow, G1 3AB"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Requesting access to the project management software.",
+          "Name: Sophia Martinez, File ID: 2345678.",
+          "Work email: sophia.martinez@lloydsbanking.com.",
+          "Office location: 34 Castle Street, Edinburgh, EH2 3DT.",
+          "My company credit card for software licenses: 4111 1111 1111 1111"
+        ],
+        "entities": [
+          {
+            "type": "NAME",
+            "text": "Sophia Martinez"
+          },
+          {
+            "type": "FILE_ID",
+            "text": "2345678"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "sophia.martinez@lloydsbanking.com"
+          },
+          {
+            "type": "RESIDENTIAL_ADDRESS",
+            "text": "34 Castle Street, Edinburgh, EH2 3DT"
+          },
+          {
+            "type": "CREDIT_CARD",
+            "text": "4111 1111 1111 1111"
+          }
+        ]
+      },
+      {
+        "text": [
+          "Problem with my company mobile phone.",
+          "My file ID is 3456789 and work email is jack.robinson@halifax.com.",
+          "Personal contact number: 07700 900345.",
+          "Home address: 67 Church Road, Manchester, M4 4BG."
+        ],
+        "entities": [
+          {
+            "type": "FILE_ID",
+            "text": "3456789"
+          },
+          {
+            "type": "WORK_EMAIL",
+            "text": "jack.robinson@halifax.com"
+          },
+          {
+            "type": "PHONE_NUMBER",
+            "text": "07700 900345"
+          },
+          {
+            "type" : "RESIDENTIAL_ADDRESS",
+            "text" : "67 Church Road, Manchester, M4 4BG."
+          }]
+      }
+]
